@@ -20,6 +20,15 @@ By default the Human player will start playing the game, the red discs are for t
 * 1's are used to depict the human player discs.
 * 2's are used to depict the AI player discs.
 
+### Evalutation function
+
+The function uses simple conditions to get a value for each state
+
+* Provides a highest score if the state is a winning state
+* Provides the next highest score if the state has 3 pieces together and there is a empty place.
+* Provides the next highest score if the state has 2 pieces together and there are 2 empty places.
+* Provides a negative score if there are 3 pieces of opponent together
+
 ### To close the game
 
 *  `ctrl+c` can be used to close the game.
