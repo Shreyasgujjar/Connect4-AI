@@ -10,6 +10,8 @@ pip install -r requirements.txt
 python3 Connect4.py
 ```
 
+The user will be asked if he/she wants to use the Alpha beta pruning or not when the game begins and the input has to be given using only `y` or `n` anything typed apart from these will be considered as `n` by default.
+
 ### Details 
 
 By default the Human player will start playing the game, the red discs are for the human player. The game is made in such a way that the UI tracks the movement of the cursor and the Red plate moves on the top based on the movememnt of the cursor. On mouse left click the cursor drops the disc inside the column.
