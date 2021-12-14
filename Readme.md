@@ -1,6 +1,6 @@
 # Connect 4 AI
 
-Project is implemented using the module pygame
+Project is implemented using python and the UI is implemented using the module pygame
 
 ### To run the code
 ```
